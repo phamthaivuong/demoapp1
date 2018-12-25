@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/slug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#201adf"
+        android:textStyle="bold" />
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/my_iamge"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        fresco:placeholderImage="@drawable/my_drawable"
+        fresco:roundedCornerRadius="5dp"
+        fresco:roundBottomStart="false"
+        fresco:roundBottomEnd="false"
+        fresco:roundWithOverlayColor="@color/blue"
+        fresco:roundingBorderWidth="1dp"
+        fresco:roundingBorderColor="@color/red"/>
+
+</LinearLayout>

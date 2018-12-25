@@ -2,7 +2,9 @@ package com.example.phamthaivuong.demoapp1;
 
 import android.view.View;
 
-public abstract class Testxxx {
+import java.io.Serializable;
+
+public class Testxxx implements Serializable {
 
 //    public abstract void click(String object);
 //
